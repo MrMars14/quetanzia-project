@@ -3,8 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 6vmin;
   pointer-events: none;
+}
+
+.App-map {
+  margin: 10%;
+  width: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +40,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-flex-row {
+
 }
